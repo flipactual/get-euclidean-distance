@@ -16,16 +16,16 @@ _Number_ The euclidean distance between the points.
 
 ```js
 const a = {
-  x: -0.5,
-  y: 10,
+  x: 0.5,
+  y: 0.1,
 }
 const b = {
-  x: 0.5,
-  y: 20,
+  x: 0.25,
+  y: 0.2,
 }
 getEuclideanDistance([
   b.x - a.x,
   a.y - b.y,
 ])
-// → 10.04987562112089
+// → 0.26925824035672524
 ```
