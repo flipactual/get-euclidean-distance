@@ -12,7 +12,7 @@
   "author": "Flip",
   "license": "MIT",
   "devDependencies": {
-    "is-practically-equal": "^2.0.0",
+    "is-practically-equal": "^2.0.1",
     "istanbul": "^0.4.1",
     "mocha": "^2.3.4"
   },
