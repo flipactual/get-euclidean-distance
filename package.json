@@ -8,6 +8,7 @@
     "coverage": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha --",
     "view-coverage": "open ./coverage/lcov-report/index.html"
   },
+  "repository": "flipactual/get-euclidean-distance",
   "author": "Flip",
   "license": "MIT",
   "devDependencies": {
