@@ -1,6 +1,6 @@
 {
   "name": "get-euclidean-distance",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Find the euclidean distance between two points in arbitrary dimensions.",
   "main": "index.js",
   "scripts": {
