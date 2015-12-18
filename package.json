@@ -14,5 +14,8 @@
     "is-practically-equal": "^2.0.0",
     "istanbul": "^0.4.1",
     "mocha": "^2.3.4"
+  },
+  "engines": {
+    "node": ">=5.0.0"
   }
 }
