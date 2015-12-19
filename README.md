@@ -2,17 +2,7 @@
 
 Find the euclidean distance between two points in arbitrary dimensions.
 
-**Parameters:**
-
-| Name | Type | Description |
-| --- | --- | ---- |
-| deltas | Number[] | The distances between two points in each of the points' dimensions. |
-
-**Returns:**
-
-_Number_ The euclidean distance between the points.
-
-**Example:**
+## Example:
 
 ```js
 const a = {

@@ -1,5 +1,5 @@
 const assert = require('assert')
-const isPracticallyEqual = require('is-practically-equal')
+const isEqualEnough = require('is-equal-enough')(0.000001)
 const getEuclideanDistance = require('../index')
 
 describe('getEuclideanDistance', () => {
@@ -24,13 +24,12 @@ describe('getEuclideanDistance', () => {
       y: 0.2,
     }
     assert.equal(
-      isPracticallyEqual(
+      isEqualEnough(
         getEuclideanDistance([
           b.x - a.x,
           a.y - b.y,
         ]),
-        0.269258,
-        0.000001
+        0.269258
       ),
       true
     )
@@ -47,14 +46,13 @@ describe('getEuclideanDistance', () => {
       z: 0.25,
     }
     assert.equal(
-      isPracticallyEqual(
+      isEqualEnough(
         getEuclideanDistance([
           b.x - a.x,
           a.y - b.y,
           b.z - a.z,
         ]),
-        0.634429,
-        0.000001
+        0.634429
       ),
       true
     )
