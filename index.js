@@ -1,7 +1,7 @@
 /**
  * Find the euclidean distance between two points in arbitrary dimensions.
  *
- * @param {Number[]} deltas
+ * @param {Number[]} d
  * The distances between two points in each of the points' dimensions.
  *
  * @example
@@ -22,11 +22,5 @@
  * @return {Number}
  * The euclidean distance between the points.
  */
-function getEuclideanDistance(deltas) {
-  return Math.sqrt([
-    0,
-    ...deltas,
-  ].reduce((p, c) => p + Math.pow(c, 2)))
-}
 
-module.exports = getEuclideanDistance
+module.exports = d => Math.sqrt(d.reduce((p, c) => p + Math.pow(c, 2), 0))
