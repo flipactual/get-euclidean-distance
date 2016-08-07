@@ -23,4 +23,4 @@
  * The euclidean distance between the points.
  */
 
-module.exports = d => Math.sqrt(d.reduce((p, c) => p + Math.pow(c, 2), 0))
+module.exports = d => Math.sqrt(d.reduce((p, c) => p + Math.pow(c, 2), 0));
