@@ -8,19 +8,21 @@
  * const a = {
  *   x: 0.5,
  *   y: 0.1,
- * }
+ * };
  * const b = {
  *   x: 0.25,
  *   y: 0.2,
- * }
+ * };
  * getEuclideanDistance([
  *   b.x - a.x,
  *   a.y - b.y,
- * ])
+ * ]);
  * // → 0.26925824035672524
  *
  * @return {Number}
  * The euclidean distance between the points.
  */
 
-module.exports = d => Math.sqrt(d.reduce((p, c) => p + Math.pow(c, 2), 0));
+const getEuclideanDistance = d => Math.sqrt(d.reduce((p, c) => p + Math.pow(c, 2), 0));
+
+module.exports = getEuclideanDistance;
