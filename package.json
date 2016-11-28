@@ -1,7 +1,7 @@
 {
   "name": "get-euclidean-distance",
-  "version": "1.0.3",
-  "description": "Find the euclidean distance between two points in arbitrary dimensions.",
+  "version": "1.0.4",
+  "description": "Calculate euclidean distance in arbitrary dimensions",
   "repository": "flipactual/get-euclidean-distance",
   "author": {
     "name": "Flip",
@@ -16,7 +16,7 @@
   "scripts": {
     "test": "node_modules/.bin/_mocha --",
     "lint": "node_modules/.bin/eslint ./**/*.js --",
-    "write-readme": "./node_modules/.bin/emdaer"
+    "readme": "./node_modules/.bin/emdaer"
   },
   "devDependencies": {
     "emdaer": "^0.3.2",
