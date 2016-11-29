@@ -19,5 +19,5 @@
         link: 'http://npmjs.com/package/get-euclidean-distance'
 - text: 'Calculate euclidean distance in arbitrary dimensions'
 - include: './docs/scripts.md'
-- jsdoc: 'index.js'
+- jsdoc: './src/index.js'
 - license: true

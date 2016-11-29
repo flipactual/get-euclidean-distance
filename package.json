@@ -1,6 +1,6 @@
 {
   "name": "get-euclidean-distance",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Calculate euclidean distance in arbitrary dimensions",
   "repository": "flipactual/get-euclidean-distance",
   "author": {
