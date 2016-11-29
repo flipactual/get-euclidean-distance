@@ -18,6 +18,6 @@
         image: 'npm/v/get-euclidean-distance.svg'
         link: 'http://npmjs.com/package/get-euclidean-distance'
 - text: 'Calculate euclidean distance in arbitrary dimensions'
-- include: './docs/scripts.md'
 - jsdoc: './src/index.js'
+- include: './docs/scripts.md'
 - license: true

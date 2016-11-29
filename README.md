@@ -8,26 +8,6 @@
 
 Calculate euclidean distance in arbitrary dimensions
 
-## Scripts
-
-### `test` – run the tests
-
-```sh
-npm run test
-```
-
-### `lint` – lint the codebase
-
-```sh
-npm run lint
-```
-
-### `write-readme` – generate the README
-
-```sh
-npm run write-readme
-```
-
 <a name="getEuclideanDistance"></a>
 
 ## getEuclideanDistance(d) ⇒ <code>Number</code>
@@ -55,6 +35,26 @@ getEuclideanDistance([
   a.y - b.y,
 ]);
 // → 0.26925824035672524
+```
+
+## Scripts
+
+### `test` – run the tests
+
+```sh
+npm run test
+```
+
+### `lint` – lint the codebase
+
+```sh
+npm run lint
+```
+
+### `write-readme` – generate the README
+
+```sh
+npm run write-readme
 ```
 
 ## License
