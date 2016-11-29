@@ -1,6 +1,6 @@
 const assert = require('assert');
 const isEqualEnough = require('is-equal-enough')(0.000001);
-const getEuclideanDistance = require('../index');
+const getEuclideanDistance = require('../');
 
 describe('getEuclideanDistance', () => {
   it('Returns the distance for points in one dimension', () => {

@@ -23,6 +23,8 @@
  * The euclidean distance between the points.
  */
 
-const getEuclideanDistance = d => Math.sqrt(d.reduce((p, c) => p + Math.pow(c, 2), 0));
+function getEuclideanDistance(d) {
+  return Math.sqrt(d.reduce((p, c) => p + Math.pow(c, 2), 0));
+}
 
 module.exports = getEuclideanDistance;
