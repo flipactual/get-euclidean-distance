@@ -1,9 +1,8 @@
-parserOptions:
-  ecmaVersion: 6
-  sourceType: module
-  ecmaFeatures:
-    experimentalObjectRestSpread: true
-    jsx: true
-extends: airbnb-base
+plugins:
+  - ava
+extends:
+  - airbnb-base
+  - plugin:ava/recommended
 rules:
+  import/no-extraneous-dependencies: 0
   no-param-reassign: [2, { props: false }]

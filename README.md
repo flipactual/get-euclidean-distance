@@ -45,16 +45,28 @@ getEuclideanDistance([
 npm run test
 ```
 
+### `coverage` – generate and view code coverage as HTML
+
+```sh
+npm run coverage
+```
+
 ### `lint` – lint the codebase
 
 ```sh
 npm run lint
 ```
 
-### `write-readme` – generate the README
+### `readme` – generate the README
 
 ```sh
-npm run write-readme
+npm run readme
+```
+
+### `compile` – compile the code
+
+```sh
+npm run compile
 ```
 
 ## License
